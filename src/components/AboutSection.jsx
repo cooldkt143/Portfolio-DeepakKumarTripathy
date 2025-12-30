@@ -59,7 +59,7 @@ const AboutSection = () => {
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <a
-              href="https://drive.google.com/file/d/1mYFEccq7EbeRldVjRz5uk675iy7xkq6l/view?usp=sharing"
+              href="https://drive.google.com/file/d/1TavTCwaPqTL950YjesXcOxcqQvj5oS13/view?usp=sharing"
               target="_blank"
               className="px-8 py-3 rounded-lg bg-emerald-500 text-black font-semibold 
               hover:bg-transparent hover:text-emerald-400 border border-emerald-400 

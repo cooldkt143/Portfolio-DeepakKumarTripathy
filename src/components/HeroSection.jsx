@@ -115,7 +115,7 @@ const HeroSection = () => {
           </button>
 
           <a
-            href="https://drive.google.com/file/d/1mYFEccq7EbeRldVjRz5uk675iy7xkq6l/view?usp=sharing"
+            href="https://drive.google.com/file/d/1TavTCwaPqTL950YjesXcOxcqQvj5oS13/view?usp=sharing"
             target="_blank"
             className="px-10 py-3 rounded-lg text-emerald-400 font-semibold
             border border-emerald-400/40 hover:border-emerald-400
