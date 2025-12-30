@@ -3,7 +3,6 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsArrowDown } from "react-icons/bs";
 import { motion } from "framer-motion";
 import profileImg from "../assets/images/Profile.jpg";
-import resume from "../resume/resume.pdf";
 
 const HeroSection = () => {
   const [text, setText] = useState("");
@@ -116,7 +115,7 @@ const HeroSection = () => {
           </button>
 
           <a
-            href={resume}
+            href="https://drive.google.com/file/d/1mYFEccq7EbeRldVjRz5uk675iy7xkq6l/view?usp=sharing"
             target="_blank"
             className="px-10 py-3 rounded-lg text-emerald-400 font-semibold
             border border-emerald-400/40 hover:border-emerald-400

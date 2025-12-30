@@ -1,6 +1,5 @@
 // Header.jsx
 import React, { useState, useEffect } from "react";
-import resume from "../resume/resume.pdf";
 import { Link } from "react-scroll";
 
 const Header = () => {
@@ -73,7 +72,7 @@ const Header = () => {
         {/* Right CTA */}
         <div className="flex items-center">
           <a
-            href={resume}
+            href="https://drive.google.com/file/d/1mYFEccq7EbeRldVjRz5uk675iy7xkq6l/view?usp=sharing"
             className="px-5 py-2 text-sm font-medium text-green-400
             border border-green-400/40 rounded-full
             shadow-[0_0_12px_rgba(34,197,94,0.6)]
