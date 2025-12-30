@@ -45,7 +45,7 @@
     "description": "A responsive personal portfolio website showcasing projects, skills, and professional experience with modern design.",
     "image": "/project/Portfolio.png",
     "tech": ["React", "Tailwind CSS", "Node.js", "MongoDB", "Firebase Auth"],
-    "live": "https://v0-deepak.vercel.app/",
+    "live": "https://deepak-kumar-tripathy-portfolio.vercel.app/",
     "code": "#",
     "featured": false
   }
