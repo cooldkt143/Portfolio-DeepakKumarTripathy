@@ -51,7 +51,7 @@ const AboutSection = () => {
           </p>
 
           <p className="text-sm sm:text-md md:text-lg text-gray-400 leading-relaxed mb-6">
-            Currently pursuing my BTech in Computer Science at NIT Guwahati, I bring over 
+            Currently pursuing my BTech in Computer Science at NIST Berhampur, I bring over 
             three years of hands-on experience building responsive and modern web applications. 
             I focus on clean code, thoughtful UI, and smooth user interactions.
           </p>
