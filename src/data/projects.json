@@ -1,0 +1,52 @@
+[
+  {
+    "id": 1,
+    "title": "The Ghoomakkads",
+    "description": "A travel and tourism website featuring beautiful destinations, travel guides, and booking functionality with an engaging user experience.",
+    "image": "/project/the_ghoomakkads.png",
+    "tech": ["React", "Tailwind CSS", "Node.js", "MongoDB", "Firebase Auth"],
+    "live": "https://the-ghoomakkads.vercel.app/",
+    "code": "#",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "Smart Student Handler",
+    "description": "An intelligent legal assistance web application powered by AI to help users with legal queries and document analysis.",
+    "image": "/project/Smart-Student-Handler.png",
+    "tech": ["React", "Tailwind CSS", "Node.js", "MongoDB", "Firebase Auth"],
+    "live": "https://smart-student-handler-pzav.vercel.app/",
+    "code": "#",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "Legal AI Assistant",
+    "description": "An AI-powered legal assistant web application designed to assist users with legal queries efficiently.",
+    "image": "/project/Legal-AI.png",
+    "tech": ["React", "Tailwind CSS", "Node.js", "MongoDB", "Firebase Auth"],
+    "live": "https://legal-ai-8w7f.vercel.app/",
+    "code": "#",
+    "featured": false
+  },
+  {
+    "id": 4,
+    "title": "The Indian Compass",
+    "description": "A cultural website that promotes India's hidden culture and heritage towards the modern generation.",
+    "image": "/project/TheIndianCompass.png",
+    "tech": ["React", "Tailwind CSS", "Node.js", "MongoDB", "Firebase Auth"],
+    "live": "https://the-indian-compass-9dlu.vercel.app/",
+    "code": "#",
+    "featured": false
+  },
+  {
+    "id": 5,
+    "title": "Portfolio Website",
+    "description": "A responsive personal portfolio website showcasing projects, skills, and professional experience with modern design.",
+    "image": "/project/Portfolio.png",
+    "tech": ["React", "Tailwind CSS", "Node.js", "MongoDB", "Firebase Auth"],
+    "live": "https://v0-deepak.vercel.app/",
+    "code": "#",
+    "featured": false
+  }
+]
