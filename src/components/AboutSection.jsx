@@ -29,7 +29,7 @@ const AboutSection = () => {
           <img
             src={aboutImage}
             alt="About Me"
-            className="relative rounded-2xl w-full h-[300px] sm:h-[360px] md:h-[420px] object-cover border border-emerald-400/40"
+            className="relative rounded-2xl w-full h-[420px] sm:h-[500px] md:h-[600px] object-cover border border-emerald-400/40"
           />
         </motion.div>
 
@@ -46,20 +46,28 @@ const AboutSection = () => {
 
           <p className="text-base sm:text-lg text-gray-300 leading-relaxed mb-4">
             I’m <span className="text-emerald-400 font-semibold">Deepak Kumar Tripathy</span>, 
-            a Web Developer and aspiring Data Scientist who enjoys turning complex ideas into 
-            clean, interactive, and meaningful digital experiences.
+            a Web Developer and AI enthusiast who enjoys building intelligent and practical digital solutions. 
+            Currently pursuing my BTech in Computer Science at NIST University, I work at the intersection of 
+            web development and artificial intelligence, creating applications that combine strong functionality 
+            with thoughtful user experience.
           </p>
 
           <p className="text-sm sm:text-md md:text-lg text-gray-400 leading-relaxed mb-6">
-            Currently pursuing my BTech in Computer Science at NIST Berhampur, I bring over 
-            three years of hands-on experience building responsive and modern web applications. 
-            I focus on clean code, thoughtful UI, and smooth user interactions.
+            My experience includes developing AI-driven platforms, computer vision systems, 
+            and full-stack web applications using technologies like React, Node.js, Python, and OpenCV. 
+            I enjoy turning complex ideas into clean, interactive products, 
+            from developer analytics platforms like Credex.io to AI-powered legal and academic tools.
+          </p>
+
+          <p className="text-sm sm:text-md md:text-lg text-gray-400 leading-relaxed mb-6">
+            I’m particularly interested in Generative AI, machine learning, and intelligent software systems, 
+            and I enjoy exploring new ideas through projects, hackathons, and hands-on development.
           </p>
 
           {/* Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
             <a
-              href="https://drive.google.com/file/d/1TavTCwaPqTL950YjesXcOxcqQvj5oS13/view?usp=sharing"
+              href="https://drive.google.com/file/d/1rxw3_4-Vf1BeRyUcCfklDhkrGZUdvobQ/view?usp=sharing"
               target="_blank"
               className="px-8 py-3 rounded-lg bg-emerald-500 text-black font-semibold 
               hover:bg-transparent hover:text-emerald-400 border border-emerald-400 

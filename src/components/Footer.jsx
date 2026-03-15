@@ -98,7 +98,7 @@ const Footer = () => {
             </motion.h4>
 
             <ul className="space-y-2 text-gray-400">
-              {["Home", "About", "Skills", "Projects", "Contact"].map(
+              {["Home", "About", "Skills", "Experience", "Projects", "Contact"].map(
                 (item, index) => (
                   <motion.li
                     key={item}

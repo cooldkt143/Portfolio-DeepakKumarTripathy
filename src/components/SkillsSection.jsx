@@ -1,15 +1,7 @@
 import React, { useRef } from "react";
 import { motion, useInView } from "framer-motion";
-import {
-  FaHtml5,
-  FaCss3Alt,
-  FaJsSquare,
-  FaReact,
-  FaGitAlt,
-  FaNodeJs,
-  FaPython,
-} from "react-icons/fa";
-import { SiTailwindcss } from "react-icons/si";
+import { FaHtml5, FaCss3Alt, FaJsSquare, FaReact, FaNodeJs, FaPython, FaJava, FaGitAlt } from "react-icons/fa";
+import { SiTailwindcss, SiMongodb, SiFirebase, SiTensorflow, SiKeras, SiOpencv, SiFramer } from "react-icons/si";
 
 /* ------------------ DATA ------------------ */
 
@@ -25,9 +17,20 @@ const proficiency = [
   { name: "JavaScript", value: 88, icon: <FaJsSquare /> },
   { name: "React.js", value: 85, icon: <FaReact /> },
   { name: "Tailwind CSS", value: 92, icon: <SiTailwindcss /> },
-  { name: "Git & GitHub", value: 80, icon: <FaGitAlt /> },
   { name: "Node.js", value: 75, icon: <FaNodeJs /> },
-  { name: "Python", value: 70, icon: <FaPython /> },
+
+  { name: "Python", value: 75, icon: <FaPython /> },
+  { name: "Java", value: 70, icon: <FaJava /> },
+
+  { name: "MongoDB", value: 72, icon: <SiMongodb /> },
+  { name: "Firebase", value: 70, icon: <SiFirebase /> },
+
+  { name: "TensorFlow", value: 68, icon: <SiTensorflow /> },
+  { name: "Keras", value: 65, icon: <SiKeras /> },
+  { name: "OpenCV", value: 70, icon: <SiOpencv /> },
+
+  { name: "Git & GitHub", value: 82, icon: <FaGitAlt /> },
+  { name: "Framer Motion", value: 80, icon: <SiFramer /> }
 ];
 
 /* ------------------ ANIMATIONS ------------------ */

@@ -6,7 +6,7 @@ import profileImg from "../assets/images/Profile.jpg";
 
 const HeroSection = () => {
   const [text, setText] = useState("");
-  const fullText = "Web Developer";
+  const fullText = "Web Developer || Gen AI Enthusiast";
   const [index, setIndex] = useState(0);
   const [finished, setFinished] = useState(false);
 
@@ -96,8 +96,10 @@ const HeroSection = () => {
           variants={item}
           className="text-gray-400 text-sm sm:text-lg leading-relaxed max-w-xl mb-8"
         >
-          Passionate about creating beautiful, functional, and user-friendly web
-          experiences that make a real impact.
+          Passionate about building intelligent and user-friendly digital solutions by 
+          combining modern web technologies with AI. 
+          I enjoy creating applications that are not only functional and scalable but 
+          also deliver meaningful impact in real-world scenarios.
         </motion.p>
 
         {/* Buttons */}
@@ -115,7 +117,7 @@ const HeroSection = () => {
           </button>
 
           <a
-            href="https://drive.google.com/file/d/1TavTCwaPqTL950YjesXcOxcqQvj5oS13/view?usp=sharing"
+            href="https://drive.google.com/file/d/1rxw3_4-Vf1BeRyUcCfklDhkrGZUdvobQ/view?usp=sharing"
             target="_blank"
             className="px-10 py-3 rounded-lg text-emerald-400 font-semibold
             border border-emerald-400/40 hover:border-emerald-400
