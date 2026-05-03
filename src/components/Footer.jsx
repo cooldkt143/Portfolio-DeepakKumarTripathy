@@ -54,8 +54,8 @@ const Footer = () => {
               custom={2}
               className="text-gray-400 leading-relaxed max-w-sm"
             >
-              Front-End Developer passionate about creating beautiful
-              and functional web experiences.
+            Developer passionate about generative AI, building 
+            smart systems that solve real problems.
             </motion.p>
 
             <motion.div
@@ -98,7 +98,7 @@ const Footer = () => {
             </motion.h4>
 
             <ul className="space-y-2 text-gray-400">
-              {["Home", "About", "Skills", "Experience", "Projects", "Contact"].map(
+              {["Home", "About", "Skills", "Experience", "Projects", "Achievements", "Contact"].map(
                 (item, index) => (
                   <motion.li
                     key={item}
@@ -139,7 +139,7 @@ const Footer = () => {
               Berhampur, Odisha, India
             </motion.p>
             <motion.p variants={textVariant} custom={4} className="text-gray-400">
-              Available for freelance work
+              +91 96924 13929
             </motion.p>
           </motion.div>
         </div>
@@ -151,13 +151,13 @@ const Footer = () => {
           viewport={{ once: false, amount: 0.4 }}
           className="border-t border-white/10 mt-12 pt-6 flex flex-col md:flex-row items-center justify-between gap-4"
         >
-          <motion.p
-            variants={textVariant}
-            custom={1}
-            className="text-gray-400 text-sm"
-          >
-            © 2025 Deepak Kumar Tripathy
-          </motion.p>
+        <motion.p
+          variants={textVariant}
+          custom={1}
+          className="text-gray-400 text-sm"
+        >
+          © {new Date().getFullYear()} Deepak Kumar Tripathy
+        </motion.p>
 
           <motion.button
             variants={textVariant}

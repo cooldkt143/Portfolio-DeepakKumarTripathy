@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "title": "Runner-up – IEEE Hack-Arena 2024",
+    "place": "GNIT, Hyderabad",
+    "image": "/achievement/hackarena.jpeg",
+    "description": "Secured 2nd place by developing an AI-driven solution in a highly competitive hackathon environment."
+  },
+  {
+    "id": 2,
+    "title": "Finalist – HyperSpace Innovation Hackathon 2026",
+    "place": "IPEC, Ghaziabad",
+    "image": "/achievement/hyperspace.jpeg",
+    "description": "Reached finalist stage by building a scalable and impactful innovation-focused project."
+  },
+  {
+    "id": 3,
+    "title": "Finalist – CodeKirti 4.0 Devxtream 2026",
+    "place": "PMEC, Berhampur",
+    "image": "/achievement/codekirti.jpeg",
+    "description": "Recognized among top teams for strong development execution and problem-solving approach."
+  },
+  {
+    "id": 4,
+    "title": "Finalist – Techspire 1.0 2026",
+    "place": "Nalanda Institute of Technology, Bhubaneswar",
+    "image": "/achievement/techspire.jpeg",
+    "description": "Achieved finalist position by presenting a technically robust and practical solution."
+  },
+  {
+    "id": 5,
+    "title": "Top Performer – DataSprint 2026",
+    "place": "NIST University, Berhampur",
+    "image": "/achievement/datasprint.jpeg",
+    "description": "Recognized for outstanding performance in a data-driven problem-solving competition."
+  }
+]

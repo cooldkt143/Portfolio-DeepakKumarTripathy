@@ -18,7 +18,9 @@ const Header = () => {
     { id: "home", label: "Home" },
     { id: "about", label: "About" },
     { id: "skills", label: "Skills" },
+    { id: "experience", label: "Experience" },
     { id: "projects", label: "Projects" },
+    { id: "achievements", label: "Achievements" },
     { id: "contact", label: "Contact" },
   ];
 
@@ -72,7 +74,7 @@ const Header = () => {
         {/* Right CTA */}
         <div className="flex items-center">
           <a
-            href="https://drive.google.com/file/d/1rxw3_4-Vf1BeRyUcCfklDhkrGZUdvobQ/view?usp=sharing"
+            href="https://drive.google.com/file/d/1l9Ku4ArgpUXmDRCvWMCvXln2FdOLunzj/view?usp=sharing"
             className="px-5 py-2 text-sm font-medium text-green-400
             border border-green-400/40 rounded-full
             shadow-[0_0_12px_rgba(34,197,94,0.6)]

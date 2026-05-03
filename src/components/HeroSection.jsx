@@ -2,11 +2,11 @@ import React, { useEffect, useState } from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 import { BsArrowDown } from "react-icons/bs";
 import { motion } from "framer-motion";
-import profileImg from "../assets/images/Profile.jpg";
+import profileImg from "../assets/images/Profile.jpeg";
 
 const HeroSection = () => {
   const [text, setText] = useState("");
-  const fullText = "Web Developer || Gen AI Enthusiast";
+  const fullText = "Gen AI & LLM Application Developer";
   const [index, setIndex] = useState(0);
   const [finished, setFinished] = useState(false);
 
@@ -45,7 +45,7 @@ const HeroSection = () => {
   return (
     <section
       id="home"
-      className="relative min-h-screen w-full flex items-center justify-center overflow-hidden bg-black px-6"
+      className="relative min-h-screen w-full flex items-center justify-center overflow-hidden bg-black px-6 pt-14"
     >
       {/* Neon Background Effects (same language as About) */}
       <div className="absolute inset-0">
@@ -73,7 +73,7 @@ const HeroSection = () => {
         {/* Name */}
         <motion.h1
           variants={item}
-            className="text-4xl md:text-6xl font-bold
+          className="text-4xl md:text-6xl font-bold
             bg-gradient-to-r from-emerald-400 via-teal-300 to-cyan-400
             bg-clip-text text-transparent
             drop-shadow-[0_0_25px_rgba(52,211,153,0.35)] pt-0 sm:pt-4
@@ -96,10 +96,8 @@ const HeroSection = () => {
           variants={item}
           className="text-gray-400 text-sm sm:text-lg leading-relaxed max-w-xl mb-8"
         >
-          Passionate about building intelligent and user-friendly digital solutions by 
-          combining modern web technologies with AI. 
-          I enjoy creating applications that are not only functional and scalable but 
-          also deliver meaningful impact in real-world scenarios.
+          Full Stack AI Engineer focused on generative AI and LLM-powered applications, 
+          building scalable, high-impact systems that solve real-world problems with precision.
         </motion.p>
 
         {/* Buttons */}
@@ -117,7 +115,7 @@ const HeroSection = () => {
           </button>
 
           <a
-            href="https://drive.google.com/file/d/1rxw3_4-Vf1BeRyUcCfklDhkrGZUdvobQ/view?usp=sharing"
+            href="https://drive.google.com/file/d/1l9Ku4ArgpUXmDRCvWMCvXln2FdOLunzj/view?usp=sharing"
             target="_blank"
             className="px-10 py-3 rounded-lg text-emerald-400 font-semibold
             border border-emerald-400/40 hover:border-emerald-400
